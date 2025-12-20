@@ -1,10 +1,13 @@
 package com.example.demo.util;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Main {
     private static final String HELLO_MESSAGE = "Hello, Java!";
 
-    public static void util(String[] args) {
-        System.out.println(HELLO_MESSAGE);
+    public String util() {
+        return HELLO_MESSAGE;
     }
 
 }
