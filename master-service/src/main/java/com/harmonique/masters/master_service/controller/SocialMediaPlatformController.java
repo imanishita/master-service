@@ -1,7 +1,7 @@
 package com.harmonique.masters.master_service.controller;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+@RestController
 @RequestMapping("/social-media-platform")
 public class SocialMediaPlatformController {
 

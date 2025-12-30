@@ -1,7 +1,8 @@
 package com.harmonique.masters.master_service.controller;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;@RestController
+import org.springframework.web.bind.annotation.*;
+@RestController
 @RequestMapping("/role-type")
 public class RoleTypeController {
 
